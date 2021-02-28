@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 // Components
 import Header from '../components/header'
 import Card from '../components/card'
+import Footer from '../components/footer'
 
 export default function Home() {
   const arr = [ 1, 2, 3, 4 ]
@@ -29,17 +30,7 @@ export default function Home() {
           { content }
         </div>
       </main>
-
-      <footer className={ styles.footer }>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Created by a Lucky guy with the power of{ ' ' }
-          <img src="/vercel.svg" alt="Vercel Logo" className={ styles.logo } />
-        </a>
-      </footer>
+      <Footer />
     </div>
   )
 }
