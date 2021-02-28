@@ -11,6 +11,7 @@ export default function Home() {
 
   const content = arr.map(el => (
     <Card
+      key={ el }
       href={ "https://nextjs.org/learn" }
       title={ 'Learn' }
       text={ 'Learn about Next.js in an interactive course with quizzes!' }
