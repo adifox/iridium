@@ -2,15 +2,14 @@
 import styles from '../../styles/Home.module.css'
 
 const Footer = () => (
-  <footer className={ styles.footer }>
+  <footer className={styles.footer}>
     <div>
-      <p>Copyright &copy;2021 All rights reserved</p>
+      <p>&copy; Szabolcs Lukacs</p>
     </div>
-    <div className={ styles.socialFooter }>
-      <p>My social side</p>
-      <a href="#" className="fa fa-linkedin"></a>
-      <a href="#" className="fa fa-twitter"></a>
-      <a href="#" className="fa fa-instagram"></a>
+    <div className={styles.socialFooter}>
+      <a href='#' className='fa fa-linkedin'></a>
+      <a href='#' className='fa fa-twitter'></a>
+      <a href='#' className='fa fa-instagram'></a>
     </div>
 
     {/* <a
