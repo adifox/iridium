@@ -10,8 +10,8 @@ export default function Hero() {
         <div className={styles.heroTitles}>
           <h1 className={styles.title}>Welcome to the Iridium Blog</h1>
           <h2>
-            Sharing with you my experience about software development. And maybe
-            a GIF or two.
+            Sharing with you my experience about software development. Let's
+            keep it simple.
           </h2>
           {/* <p className={styles.description}>
           Trying to make you understand the world of{' '}

@@ -1,15 +1,17 @@
 // Styles
-import styles from '../../styles/Home.module.css'
+import styles from './footer.module.css'
 
 const Footer = () => (
   <footer className={styles.footer}>
-    <div>
-      <p>&copy; Szabolcs Lukacs</p>
-    </div>
-    <div className={styles.socialFooter}>
-      <a href='#' className='fa fa-linkedin'></a>
-      <a href='#' className='fa fa-twitter'></a>
-      <a href='#' className='fa fa-instagram'></a>
+    <div className={styles.footerContainer}>
+      <div>
+        <p>&copy; Szabolcs Lukacs</p>
+      </div>
+      <div className={styles.socialFooter}>
+        <a href='#' className='fa fa-linkedin'></a>
+        <a href='#' className='fa fa-twitter'></a>
+        <a href='#' className='fa fa-instagram'></a>
+      </div>
     </div>
 
     {/* <a

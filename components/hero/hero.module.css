@@ -1,9 +1,14 @@
 .heroWrapper {
   /* background-image: url('/images/coding.png'); */
-  background-color: #001632;
+  /* background-color: #001632; */
+  background: linear-gradient(
+    90deg,
+    rgba(23, 79, 119, 1) 0%,
+    rgba(61, 106, 141, 1) 65%
+  );
   color: #fff;
   display: flex;
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
   padding-bottom: 1rem;
   width: 100vw;
   /* height: 24rem; */

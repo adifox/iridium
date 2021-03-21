@@ -16,41 +16,6 @@
   align-items: center;
 }
 
-.footer {
-  background-color: #001632;
-  width: 100%;
-  height: 100px;
-  border-top: 1px solid #eaeaea;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  color: #fff;
-}
-
-.footer img {
-  margin-left: 0.5rem;
-}
-
-/* .footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
-.socialFooter {
-  display: flex;
-}
-
-.socialFooter a {
-  margin: 0 5px;
-  /* border: 1px solid ; */
-}
-
-.socialFooter p {
-  margin: 0 5px;
-  /* font-size: 20px; */
-}
-
 .title a {
   color: #0070f3;
   text-decoration: none;
