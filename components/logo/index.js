@@ -4,7 +4,7 @@ export default function Logo({ className }) {
   return (
     <img
       className={className || styles.default}
-      src='/images/iridium-blog-logo.png'
+      src='/images/white-logo.png'
       alt='iridium blog logo'
     />
   )

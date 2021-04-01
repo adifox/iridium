@@ -5,7 +5,7 @@ const Footer = () => (
   <footer className={styles.footer}>
     <div className={styles.footerContainer}>
       <div>
-        <p>&copy; Szabolcs Lukacs</p>
+        <p>&copy; Iridium Blog by Szabolcs Lukacs</p>
       </div>
       <div className={styles.socialFooter}>
         <a href='#' className='fa fa-linkedin'></a>
