@@ -9,7 +9,10 @@ import styles from './header.module.css'
 
 export default function Header() {
   const [isMenuOpen, setMenuOpen] = useState(false)
-  const modalStyle = !isMenuOpen ? styles.closeHeaderModal : styles.headerModal
+  const modalStyle = isMenuOpen ? styles.headerModal : styles.closeHeaderModal
+  const modalBackgroundStyles = isMenuOpen
+    ? styles.modalBackground
+    : styles.closeModalBackground
   return (
     <header className={styles.headerWrapper}>
       <div className={styles.headerContainer}>
@@ -47,6 +50,9 @@ export default function Header() {
         <div className={styles.mobileMenu}>
           <ul>
             <li>
+              <Link href='/'>Home</Link>
+            </li>
+            <li>
               <Link href='/article'>Articles</Link>
             </li>
             <li>
@@ -58,6 +64,7 @@ export default function Header() {
           </ul>
         </div>
       </Modal>
+      <div className={modalBackgroundStyles}></div>
     </header>
   )
 }

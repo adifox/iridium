@@ -1,23 +1,15 @@
-import { useState } from 'react'
+// Components
 import Card from '../components/uiComponents/card'
-import Dev from '../components/uiComponents/dev'
-
-const initialState = 'Initial Title'
 
 export default function Aboutme() {
-  const [titleState, setTitleState] = useState(initialState)
   return (
     <div>
       <h3>The very interesting and unique page of 'About me'.</h3>
       <p>Well, soon to come. Still not ready.</p>
-      <button onClick={() => setTitleState(titleState + Math.random())}>
-        Change Title
-      </button>
       <div
         style={{
           margin: '20px auto',
           border: '1px solid black',
-          padding: '50px',
         }}
       >
         <Card
@@ -28,7 +20,6 @@ export default function Aboutme() {
           }
         />
       </div>
-      <Dev />
     </div>
   )
 }
